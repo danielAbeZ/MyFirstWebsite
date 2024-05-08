@@ -10,7 +10,7 @@
     <h1>This is an h1 title example</h1>
     <p>This is a p paragraph example</p>
     <section class="wrapper-main">
-        <form action="formTesting.php" method="get">
+        <form action="includes/formHandler.php" method="post">
             <!-- On labels, the 'for' attribute refers to the id of the element they will be attached to -->
             <label for="firstName">First Name</label>
             <br>
@@ -44,16 +44,17 @@
             <label for="eyeColorBlue">Blue</label>
             <input type="radio" id="eyeColorGreen" name="eC" value="green">
             <label for="eyeColorGreen">Green</label>
-            <input type="radio" id="eyeColorBrown" name="eC" value="brown">
-            <label for="eyeColorBrown">Blue</label>
+            <input type="radio" id="eyeColorBrown" name="eC" value="brown" checked>
+            <label for="eyeColorBrown">Brown</label>
             <br><br>
             <label>Any pets?</label>
+            <br>
             <label for="petDog">Dog</label>
             <input type="checkbox" id="petDog" name="petDog" value="dog">
             <label for="petCat">Cat</label>
             <input type="checkbox" id="petCat" name="petCat" value="cat">
-            <label for="petNone">None</label>
-            <input type="checkbox" id="petNone" name="petNone" value="none">
+            <label for="petNone">Tiger</label>
+            <input type="checkbox" id="petTiger" name="petTiger" value="tiger">
             <br><br>
             <label>Vehicle you own?</label>
             <br>
