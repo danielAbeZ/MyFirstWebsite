@@ -1,0 +1,41 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 15px;
+}
+
+.wrapper-main {
+    width: auto;
+    margin-left: 10px;
+}
+
+/* Affects labels inside a form*/
+form label{
+    color: teal;
+}
+
+input[type="text"], 
+input[type="password"], 
+input[type="email"],
+textarea, select, button {
+    margin-top: 2px;
+    padding: 5px;
+}
+
+textarea:focus, input[type="text"]:focus {
+    outline: 1px blue;
+}
+
+textarea {
+    height: 30%;
+    width: 50%;
+    resize: none;
+}
+
+button:hover{
+    background-color: rgb(66, 69, 243);
+    cursor: pointer;
+}
