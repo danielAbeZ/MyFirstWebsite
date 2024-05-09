@@ -69,16 +69,7 @@
         </form>    
     </section>
     <?php 
-        //Scalar-type variables
-        $string = "Daniel";
-        $int = 12345;
-        $float = 1.2345;
-        $bool = true;
-
-        //Array-type variables
-        $array = array("Daniel", "John");
-        $anotherArray = ["Daniel", "John"]; //PHP 5.4 forward only, not compatible with older versions
+        
     ?>
-    <p>This is a testing paragraph with a variable value: <?php echo $string; ?></p>
 </body>
 </html>

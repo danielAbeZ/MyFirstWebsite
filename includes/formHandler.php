@@ -22,6 +22,7 @@
             //With 'exit()' we keep the rest of the code from running
             if(empty($firstName) || empty($secondName) || empty($email) || 
             empty($phoneNumber) || empty($personalDescription)){
+                header("Location: ../index.php");
                 exit();
             }
 
